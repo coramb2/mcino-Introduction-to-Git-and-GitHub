@@ -1,0 +1,3 @@
+git branch -vv
+  bug-fix-typo a84b15c [origin/bug-fix-typo] Fix typo in README
+* main         ef34a5d [origin/main] Add pull request validation output
