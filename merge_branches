@@ -1,0 +1,16 @@
+$ git checkout main
+Switched to branch 'main'
+
+$ git merge bug-fix-typo
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ git add README.md
+$ git commit -m "Merge bug-fix-typo into main"
+
+$ git show --stat --oneline -1
+be24032 Merge bug-fix-typo into main
+
+ README.md | 1 -
+ 1 file changed, 1 deletion(-)
